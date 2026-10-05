@@ -1,0 +1,41 @@
+enable
+configure terminal
+
+vlan 101
+ name VLAN101
+exit
+
+vlan 102
+ name VLAN102
+exit
+
+vlan 103
+ name VLAN103
+exit
+
+vlan 104
+ name VLAN104
+exit
+
+interface range fastEthernet 0/5 - 8
+ switchport mode access
+ switchport access vlan 101
+exit
+
+interface range fastEthernet 0/10 - 12
+ switchport mode access
+ switchport access vlan 102
+exit
+
+interface range fastEthernet 0/15 - 18
+ switchport mode access
+ switchport access vlan 103
+exit
+
+interface range fastEthernet 0/21 - 22
+ switchport mode access
+ switchport access vlan 104
+exit
+
+end
+show vlan brief
