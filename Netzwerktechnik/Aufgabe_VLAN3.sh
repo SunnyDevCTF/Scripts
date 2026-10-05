@@ -11,6 +11,7 @@ echo
 
 # -----------------------------
 # Eingaben
+# wichtig, den dhcp server rechner, auf dem das skript gestartet werden soll, muss eine statische ip von anfang an haben
 # -----------------------------
 
 while true; do
