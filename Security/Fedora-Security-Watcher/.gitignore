@@ -1,0 +1,15 @@
+# Logs und Kamerabilder
+*.log
+*.jpg
+*.jpeg
+*.png
+images/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Lokale Konfiguration
+.env
+*.env
