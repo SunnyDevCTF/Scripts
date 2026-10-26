@@ -1,7 +1,7 @@
 # Fedora Security Control
 
 Ein Python-Projekt zur Überwachung ausgewählter fehlgeschlagener
-Authentifizierungsereignisse unter Fedora Linux.
+Authentifizierungsereignisse (zB. Falsche Logins) unter Fedora Linux.
 
 ## Features
 
@@ -50,7 +50,7 @@ chmod +x install.sh uninstall.sh
 ```
 
 
-Prüfe vor der Installation, ob dein Python-Skript vorhanden ist:
+Prüfe vor der Installation, ob das Python-Skript vorhanden ist:
 ```bash
 ls -l src/security_watcher.py
 ```
